@@ -2,28 +2,28 @@ const difficulties = [
   {
     id: 'supereasy',
     name: 'Очень легкий',
-	  cardTypes: ['snowflake'],
+	  cardTypes: ['easy'],
 	  additionalCardTypes: ['normal'],
   },
   {
     id: 'easy',
     name: 'Легкий',
-	  cardTypes: ['snowflake','normal'],
+	  cardTypes: ['easy','normal'],
   },
   {
     id: 'normal',
     name: 'Средний',
-	  cardTypes: ['snowflake','normal','tentacles'],
+	  cardTypes: ['easy','normal','hard'],
   },
   {
     id: 'hard',
     name: 'Сложный',
-	  cardTypes: ['normal','tentacles'],
+	  cardTypes: ['normal','hard'],
   },
   {
     id: 'superhard',
     name: 'Очень сложный',
-	  cardTypes: ['tentacles'],
+	  cardTypes: ['hard'],
 	  additionalCardTypes: ['normal'],
   },
 ]
