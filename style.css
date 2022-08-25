@@ -35,6 +35,10 @@ body {
     height: 260px;
     width: 200px;
   }
+
+  .ancient-card.active {
+    border: 2px solid rgb(236, 30, 236);
+  }
   
   .difficulty-container {
     display: flex;
@@ -52,6 +56,10 @@ body {
     cursor: pointer;
     padding: 5px;
     text-align: center;
+  }
+
+  .difficulty.active {
+    border: 2px solid rgb(198, 236, 30);
   }
   
   .deck-container {
